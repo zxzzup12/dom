@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+    <servlet>
+        <servlet-name>RetrieveMember</servlet-name>
+        <servlet-class>kr.ac.sihnhanin.sep.RetrieveMemberServlet</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+ 		<servlet-name>RetrieveMember</servlet-name> 
+		<url-pattern>/RetrieveMemberServlet</url-pattern> 
+ 	</servlet-mapping> 
+    
+    
+    
+    
+    
+    
+    
+    
+	<servlet>
+		<servlet-name>Hahahan</servlet-name>
+		<servlet-class>kr.ac.sihnhanin.esp.HahahanServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Hahahan</servlet-name>
+		<url-pattern>/hahahan</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
